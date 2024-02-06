@@ -1,0 +1,82 @@
+@charset "UTF-8";
+@font-face {
+	font-family: 'Font';
+	src: url("../_fonts/pacifico.otf");
+}
+
+.inp:focus{
+	font-size: 11pt;
+	
+	position:absolute;
+}
+
+.datan{
+	font-size:11pt;
+}
+
+input {
+	font-family: Arial, sans-serif;
+	font-size: 9pt;
+	font-style: italic;
+}
+ 
+input:focus {
+	font-family: Arial, sans-serif;
+	font-style: italic;
+}
+
+textarea {
+	font-family: Arial, sans-serif;
+	font-size: 9pt;
+	font-style: italic;
+	max-width: 320pt;
+	max-height: 300pt;
+	position: relative;
+}
+
+textarea:focus {
+	font-family: Arial, sans-serif;
+	font-size: 11pt;
+	font-style: italic;
+	
+}
+
+p i#iCor, i#iQtd{
+	font-size: 11pt;
+	color: red;
+
+}
+
+p i#iCor{
+	opacity: 0; 
+}
+
+p:hover i#iCor{
+	opacity: 1;
+}	
+
+
+
+
+p i#iQtd{
+	opacity: 0; 
+}
+
+p:hover i#iQtd{
+	opacity: 1;
+}	
+
+p#pPed {
+	font-size: 11pt;
+	
+}
+
+
+
+fieldset {
+	position: relative;
+}
+
+fieldset#sexo {
+	margin-left: 30px;
+}
